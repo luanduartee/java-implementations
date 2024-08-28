@@ -4,7 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
 	public static void main(String[] args) {
-		selecaoCandidatos();
+		imprimirSelecionados();
 		
 	}
 	
@@ -42,6 +42,21 @@ public class ProcessoSeletivo {
 			System.out.println("LIGAR PARA O CANDIDATO COM CONTRA PROPOSTA.");
 		} else {
 			System.out.println("AGUARDANDO O RESULTADO DOS DEMAIS CANDIDATOS.");
+		}
+	}
+	
+	static void imprimirSelecionados() {
+		String [] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO"};
+		
+		System.out.println("Imprimindo a lista de candidatos informando o indice do elemento");
+		
+		for(int indice = 0; indice < candidatos.length; indice++) {
+			System.out.println("O candidato de número " + (indice + 1) + " é " + candidatos[indice]);
+		}
+		
+		System.out.println("Utilizando o foreach para uma forma mais abreviada: ");
+		for(String candidato: candidatos) {
+			System.out.println("O candidato selecionado foi " + candidato);
 		}
 	}
 }
