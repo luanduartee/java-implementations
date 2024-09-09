@@ -5,49 +5,49 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-0" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;ReprodutorMusical" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="230" width="140" height="150" as="geometry" />
+          <mxGeometry x="50" y="230" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-13" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ musica: string&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-0">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-12" value="+ tocar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-0">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-2" value="+ pausar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-0">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DOEwoX9DqPEhDlSZ6hBs-3" value="+ selecionarMusica()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-0">
-          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        <mxCell id="DOEwoX9DqPEhDlSZ6hBs-3" value="+ selecionarMusica(String musica)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-0">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-4" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;AparelhoTelefonico" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="350" y="230" width="140" height="150" as="geometry" />
+          <mxGeometry x="315" y="230" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-14" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ numero: string&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-4">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DOEwoX9DqPEhDlSZ6hBs-5" value="+ ligar()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-4">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        <mxCell id="DOEwoX9DqPEhDlSZ6hBs-5" value="+ ligar(String numero)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-4">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-6" value="+ atender()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-4">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-7" value="+ iniciarCorreioVoz()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-4">
-          <mxGeometry y="120" width="140" height="30" as="geometry" />
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-8" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;NavegadorInternet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="230" width="150" height="150" as="geometry" />
+          <mxGeometry x="580" y="230" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-15" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ url: string&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-8">
-          <mxGeometry y="30" width="150" height="30" as="geometry" />
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DOEwoX9DqPEhDlSZ6hBs-9" value="+ exibirPagina()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-8">
-          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        <mxCell id="DOEwoX9DqPEhDlSZ6hBs-9" value="+ exibirPagina(String url)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-8">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-10" value="+ adicionarNovaPagina()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-8">
-          <mxGeometry y="90" width="150" height="30" as="geometry" />
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-11" value="+ atualizarPagina()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DOEwoX9DqPEhDlSZ6hBs-8">
-          <mxGeometry y="120" width="150" height="30" as="geometry" />
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DOEwoX9DqPEhDlSZ6hBs-16" value="Iphone" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="80" width="140" height="60" as="geometry" />
