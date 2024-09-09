@@ -46,10 +46,13 @@ bash
 Copiar código
 .
 ├── src
-│   ├── ReprodutorMusical.java
-│   ├── AparelhoTelefonico.java
-│   ├── NavegadorInternet.java
-│   └── iPhone.java
+|   ├── aparelho
+|   └──────── Aparelho.java
+|   ├── aplicativos
+│   ├──────── ReprodutorMusical.java
+│   ├──────── AparelhoTelefonico.java
+│   ├──────── NavegadorInternet.java
+│   └──────── iPhone.java
 └── README.md
 
 ```
