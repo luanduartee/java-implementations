@@ -33,9 +33,7 @@ As funcionalidades principais do iPhone foram organizadas em interfaces, com mé
 
 O diagrama UML abaixo representa a relação entre as interfaces **ReprodutorMusical**, **AparelhoTelefonico**, **NavegadorInternet** e a classe **iPhone**, que implementa todas essas interfaces:
 
-![modelagem_iphone.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d0d9d5ef-2c0f-4760-9ba6-492c026907bd/2a50a3f3-047f-4a02-9c14-12525ccf486f/modelagem_iphone.jpg)
-
-*(Substitua "path/to/uml-diagram.png" pelo caminho da imagem do seu diagrama UML.)*
+![modelagem_iphone.jpg](./modelagem_iphone.jpg)
 
 ## Estrutura de Código
 
