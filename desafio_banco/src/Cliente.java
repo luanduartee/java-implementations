@@ -1,7 +1,6 @@
 public class Cliente {
 
 	private String nome;
-	private double rendaMensal;
 
 	public String getNome() {
 		return nome;
